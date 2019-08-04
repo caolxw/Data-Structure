@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1564843172 source:d:\codeblocks\sqlist\main.cpp
+	<stdio.h>
+	"head.h"
+	"SqList.cpp"
+
+1564842874 d:\codeblocks\sqlist\head.h
+
+1564882162 d:\codeblocks\sqlist\sqlist.cpp
+	<stdio.h>
+	<stdlib.h>
+	<head.h>
+
+1564842874 d:\codeblocks\sqlist\\head.h
+
