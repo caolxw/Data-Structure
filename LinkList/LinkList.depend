@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1565192150 source:d:\codeblocks\linklist\main.cpp
+	<stdio.h>
+	"singlelist.h"
+	"singleListimp.cpp"
+	"circlelist.h"
+	"circlelistimp.cpp"
+
+1564974717 d:\codeblocks\linklist\singlelist.h
+
+1564975171 d:\codeblocks\linklist\singlelistimp.cpp
+	<stdio.h>
+	<stdlib.h>
+	"singlelist.h"
+
+1565168494 d:\codeblocks\linklist\circlelist.h
+
+1565192189 d:\codeblocks\linklist\circlelistimp.cpp
+	<stdio.h>
+	<stdlib.h>
+	"circlelist.h"
+
