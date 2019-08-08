@@ -34,4 +34,7 @@ bool getElem(LinkList L, int i, ElemType &e);
 //显示全部元素
 void showup(LinkList L);
 
+//找到位置对饮的索引
+int getIndex(LinkList L, LinkList p);
+
 #endif // CIRCLELIST_H_INCLUDED

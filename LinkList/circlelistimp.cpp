@@ -107,9 +107,22 @@ void showup(LinkList L)
 {
     if(isEmpty(L)) return;
     LinkList p = L->next->next;
+    printf("[");
     while(p != L){
         printf("%d ",p->val);
         p = p->next;
     }
-    printf("%d\n",p->val);
+    printf("%d]\n",p->val);
+}
+
+//找到位置对饮的索引
+int getIndex(LinkList L, LinkList p)
+{
+    LinkList q = L->next;
+    int i = 0;
+    while(q != p){
+        q = q->next;
+        i ++;
+    }
+    return i;
 }

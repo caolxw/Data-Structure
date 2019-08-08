@@ -56,6 +56,7 @@ int main(){
 }
 */
 
+/*
 #include "doublelist.h"
 #include "doublelistimp.cpp"
 
@@ -73,4 +74,11 @@ int main(){
     showup(l);
     getElem(l, 2, e);
     printf("第2个元素是：%d\n", e);
+}
+*/
+
+#include "josephus.cpp"
+
+int main(){
+    josephus(5, 2, 3);
 }
