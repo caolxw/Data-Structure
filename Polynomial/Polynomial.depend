@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1565536536 source:d:\codeblocks\polynomial\main.cpp
+	<stdio.h>
+	"polylinklist.cpp"
+
+1565536633 d:\codeblocks\polynomial\polylinklist.cpp
+	<stdio.h>
+	<stdlib.h>
+	"linklist.h"
+	"linklistimp.cpp"
+	"polylinklist.h"
+
+1565535676 d:\codeblocks\polynomial\linklist.h
+	"polyterm.h"
+
+1565535485 d:\codeblocks\polynomial\polyterm.h
+
+1565535621 d:\codeblocks\polynomial\polylinklist.h
+	"polyterm.h"
+	"linklist.h"
+
+1565536648 d:\codeblocks\polynomial\linklistimp.cpp
+	<stdio.h>
+	<stdlib.h>
+	"linklist.h"
+
