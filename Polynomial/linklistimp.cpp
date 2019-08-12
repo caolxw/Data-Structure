@@ -78,3 +78,16 @@ void showup(LinkList L)
     }
     printf("\n");
 }
+
+//返回满足cmp的元素的索引
+int getIndex(LinkList L, ElemType e, int (* compare)(ElemType, ElemType))
+{
+    LinkList p = L->next;
+    int i = 1;
+    while(p){
+        if(compare(e, p->val) == 0) return i;
+        i ++;
+        p = p->next;
+    }
+    return i;
+}

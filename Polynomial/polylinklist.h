@@ -17,8 +17,8 @@ void PrintPoly(LinkList P);
 int PolyLength(LinkList P);
 
 //多项式相加
-void AddPoly(LinkList Pa, LinkList Pb, LinkList &Pc);
+void AddPoly(LinkList &Pa, LinkList &Pb, LinkList &Pc);
 
 //多项式相减
-void SubtractPoly(LinkList Pa, LinkList Pb, LinkList &Pc);
+void SubtractPoly(LinkList &Pa, LinkList &Pb, LinkList &Pc);
 #endif // POLYLINKLIST_H_INCLUDED

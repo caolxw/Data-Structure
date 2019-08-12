@@ -26,4 +26,7 @@ void showup(LinkList L);
 //合并两个链表并保持其递减性
 void MergeList(LinkList &L1, LinkList &L2, LinkList &L3);
 
+//返回满足cmp的元素的索引
+int getIndex(LinkList L, ElemType e, int (* compare)(ElemType, ElemType));
+
 #endif // LINKLIST_H_INCLUDED
