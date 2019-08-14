@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1565748600 source:d:\codeblocks\queue\main.cpp
+	<stdio.h>
+	"linkhead.h"
+	"linkqueue.cpp"
+
+1565747028 d:\codeblocks\queue\linkhead.h
+
+1565748870 d:\codeblocks\queue\linkqueue.cpp
+	<stdio.h>
+	<stdlib.h>
+	"linkhead.h"
+
