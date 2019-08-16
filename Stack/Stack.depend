@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1565968377 source:d:\codeblocks\stack\main.cpp
+	<stdio.h>
+	"sqhead.h"
+	"sqstack.cpp"
+	"application.cpp"
+
+1565707853 d:\codeblocks\stack\sqhead.h
+
+1565708092 d:\codeblocks\stack\sqstack.cpp
+	<stdio.h>
+	<stdlib.h>
+	"sqhead.h"
+
+1565969124 d:\codeblocks\stack\application.cpp
+	"sqhead.h"
+

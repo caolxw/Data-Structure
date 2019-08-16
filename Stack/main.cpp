@@ -2,6 +2,7 @@
 #include "sqhead.h"
 #include "sqstack.cpp"
 
+/*
 int main(){
     SqStack S;
     Init_Stack(S);
@@ -15,4 +16,11 @@ int main(){
     showup(S);
     int length = Stack_Length(S);
     printf("%d \n", length);
+}
+*/
+
+#include "application.cpp"
+
+int main(){
+    conversion();
 }
