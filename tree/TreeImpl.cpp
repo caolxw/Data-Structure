@@ -38,10 +38,24 @@ void PreOrderTree(BiTree T, void (*visit)(ElemType e))
 }
 
 //中序递归遍历二叉树
-void InOrderTree(BiTree T, void (*visit)(ElemType e));
+void InOrderTree(BiTree T, void (*visit)(ElemType e))
+{
+    if(T){
+        InOrderTree(T ->lchild, visit);
+        visit(T ->data);
+        InOrderTree(T ->rchild, visit);
+    }else return;
+}
 
 //后序递归遍历二叉树
-void PostOrderTree(BiTree T, void (*visit)(ElemType e));
+void PostOrderTree(BiTree T, void (*visit)(ElemType e))
+{
+    if(T){
+        PostOrderTree(T ->lchild, visit);
+        PostOrderTree(T ->rchild, visit);
+        visit(T ->data);
+    }else return;
+}
 
-//层序递归遍历二叉树
+//层序遍历二叉树
 void LevelOrderTree(BiTree T, void (*visit)(ElemType e));

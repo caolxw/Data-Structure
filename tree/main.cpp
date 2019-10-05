@@ -9,4 +9,8 @@ int main()
     CreateBiTree(T);
     PreOrderTree(T, PrintElement);
     printf("\n");
+    InOrderTree(T, PrintElement);
+    printf("\n");
+    PostOrderTree(T, PrintElement);
+    printf("\n");
 }

@@ -22,7 +22,7 @@ void InOrderTree(BiTree T, void (*visit)(ElemType e));
 //后序递归遍历二叉树
 void PostOrderTree(BiTree T, void (*visit)(ElemType e));
 
-//层序递归遍历二叉树
+//层序遍历二叉树
 void LevelOrderTree(BiTree T, void (*visit)(ElemType e));
 
 #endif // TREEHEAD_H_INCLUDED
