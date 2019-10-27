@@ -32,10 +32,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="StackImpl.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="TreeImpl.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="main.cpp" />
+		<Unit filename="stackhead.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="treehead.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>

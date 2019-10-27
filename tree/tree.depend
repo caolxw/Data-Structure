@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1571928241 source:d:\codeblocks\stack\sqstack.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Stack\sqhead.h"
+
+1571928013 d:\codeblocks\stack\sqhead.h
+	"tree\treehead.h"
+
+1572144493 source:d:\codeblocks\tree\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"TreeImpl.cpp"
+
+1572144587 d:\codeblocks\tree\treeimpl.cpp
+	<stdio.h>
+	<stdlib.h>
+	"treehead.h"
+	"StackImpl.cpp"
+	"QueueImpl.cpp"
+
+1571929638 d:\codeblocks\tree\treehead.h
+
+1572141596 d:\codeblocks\tree\stackimpl.cpp
+	<stdio.h>
+	<stdlib.h>
+	"stackhead.h"
+
+1572141374 d:\codeblocks\tree\stackhead.h
+	"treehead.h"
+
+1572144117 d:\codeblocks\tree\queueimpl.cpp
+	<stdio.h>
+	<stdlib.h>
+	"queuehead.h"
+
+1572144468 d:\codeblocks\tree\queuehead.h
+	"treehead.h"
+

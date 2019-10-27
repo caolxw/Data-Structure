@@ -22,6 +22,15 @@ void InOrderTree(BiTree T, void (*visit)(ElemType e));
 //后序递归遍历二叉树
 void PostOrderTree(BiTree T, void (*visit)(ElemType e));
 
+//前序非递归白遍历二叉树
+void PreOrderTree_norecursive(BiTree T, void(*visit)(ElemType e));
+
+//中序非递归遍历二叉树
+void InOrderTree_norecursive(BiTree T, void (*visit)(ElemType e));
+
+//后序非递归遍历二叉树
+void PostOrderTree_norecursive(BiTree T, void (*visit)(ElemType e));
+
 //层序遍历二叉树
 void LevelOrderTree(BiTree T, void (*visit)(ElemType e));
 
