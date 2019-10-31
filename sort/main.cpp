@@ -106,6 +106,35 @@ int Partition(int a[], int low, int high)
     }
 }
 
+//调整数组，使其成为大顶堆
+void HeapAjust(int a[], int s, int m)
+{
+    int rc = a[s];
+    for(int j = 2 * s + 1; j < m; j = j * 2 + 1){
+        if(j + 1 < m && a[j] < a[j + 1]) j ++;
+        if(rc < a[j]){
+            a[s] = a[j];
+            s = j;
+        }
+    }
+    a[s] = rc;
+}
+//堆排序
+void HeadSort(int a[], int n)
+{
+    int i;
+    for(i = (n-1) / 2; i >= 0; i --){
+        HeapAjust(a, i, n);
+    }
+    for(i = n-1; i > 0; i --){
+        int tmp = a[0];
+        a[0] = a[i];
+        a[i] = tmp;
+
+        HeapAjust(a, 0, i-1);
+    }
+}
+
 //数组合并
 void Merge(int a[], int a2[], int i, int m, int s)
 {
@@ -154,6 +183,9 @@ int main(){
     //QuickSort(a, 0, 7);
     //PrintArr(a, 8);
 
-    MergeSort(a, a, 0, 7);
+    HeadSort(a, 8);
     PrintArr(a, 8);
+
+    //MergeSort(a, a, 0, 7);
+    //PrintArr(a, 8);
 }
